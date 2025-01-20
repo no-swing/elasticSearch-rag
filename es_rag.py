@@ -22,8 +22,8 @@ model = SentenceTransformer('BAAI/bge-base-zh')
 
 # 配置Elasticsearch连接
 # 注意：这里的URL和认证信息需要根据实际情况替换
-es = Elasticsearch("http://es-cn-20s43iek20007eedl.elasticsearch.aliyuncs.com:9200",
-                   basic_auth=("elastic", "pm5rP3o2dRjdVhm6uoNGrCq1Yw7y7z"))
+es = Elasticsearch("http://es-cn-20s7eedl.elasticsearch.aliyuncs.com:9200",
+                   basic_auth=("elastic", "pm5rPdVhm6uoNGrCq1Yw7y7z"))
 es_index = "liyu_content_vec_768"  # Elasticsearch索引名称
 
 # 计算RRF（Rank Reciprocal Fusion）得分
