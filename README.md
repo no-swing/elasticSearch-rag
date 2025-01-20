@@ -3,6 +3,7 @@ a Retrieval-Augmented Generation (RAG) model with text retrieval and vector retr
 
 一个基于Elastic Search的文本召回和向量召回实现的轻量级RAG ，前端由Gradio生成
 
+The demonstration figure is as follows.
 ![image](https://github.com/user-attachments/assets/437b9506-1685-41c9-96a1-0528cc117989)
 
 
